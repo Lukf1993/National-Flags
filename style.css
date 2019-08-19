@@ -1,0 +1,117 @@
+html {
+	background: #ca87a1;
+}
+.CzechRepublik{
+	position: absolute;
+	display: block;	
+	top: 10%;
+	left: calc(50% - 225px);
+	height: 0;
+	width: 250px;
+	background: #191b6d;
+	border-top: 150px solid #eae7e1;
+	border-left: 200px solid #191b6d;
+	border-bottom: 150px solid #cc0000;
+}
+.Japan{
+	position: absolute;
+	display: block;
+	top: calc(10% + 350px);
+	left: calc(50% - 225px);
+	height: 300px;
+	width: 450px;
+	background: #fff;
+}
+.Japan .Circle{	
+	position: absolute;
+	display: block;
+	top: calc(50% - 100px);
+	left: calc(50% - 100px);	
+	height: 200px;
+	width: 200px;
+	background: #cc0000;
+	border-radius: 50%;	
+}
+.Micronesia{
+	top: calc(10% + 700px);
+	left: calc(50% - 225px);
+	height: 300px;
+	width: 450px;
+	position: absolute;
+	background: #75b2dd;	
+}
+.Micronesia:before{
+	content: "\2605";
+	color: #fff;
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -34px;
+	font-size: 80px;
+	-webkit-box-reflect: below 90px;
+}
+.Micronesia:after{
+	content: "\2605";
+	color: #fff;
+	display: block;
+	position: absolute;
+	left: 20%;
+	top: calc(50% - 50px);
+	font-size: 80px;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari 3-8 */
+    transform: rotate(-90deg);
+    -webkit-box-reflect: below 90px;
+}
+.Micronesia2{
+	height: 300px;
+	width: 450px;
+	display: block;
+	position: absolute;
+	left: calc(50% - 225px);
+	top: calc(50% + 800px);
+	margin-bottom: 10%;
+	background: #75b2dd;	
+}
+.Micronesia2:before{
+	content: "\2605";
+	color: #fff;
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -33px;
+	font-size: 80px;
+}
+.Micronesia2:after{
+	content: "\2605";
+	color: #fff;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: calc(50% + 45px);
+	margin-left: -33px;
+	font-size: 80px;
+	transform: rotate(180deg);
+}
+.star:before{
+	content: "\2605";
+	color: #fff;
+	display: block;
+	position: absolute;
+	left: 21%;
+	top: calc(50% - 55px);
+	font-size: 80px;
+	transform: rotate(-90deg);
+}
+.star:after{
+	content: "\2605";
+	color: #fff;
+	display: block;
+	position: absolute;
+	left: calc(50% + 55px);
+	top: calc(50% - 55px);
+	font-size: 80px;
+	transform: rotate(90deg);
+}
+
+
